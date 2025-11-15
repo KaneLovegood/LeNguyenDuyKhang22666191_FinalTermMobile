@@ -15,5 +15,18 @@
     "expo-sqlite"
   ],
   "name": "LeNguyenDuyKhang22666191",
-  "slug": "LeNguyenDuyKhang22666191"
+  "slug": "LeNguyenDuyKhang22666191",
+  "extra": {
+    "router": {
+      "origin": "https://n"
+    },
+    "eas": {
+      "projectId": "30e323b7-c218-40ce-bea2-360c38cc8eae"
+    }
+  },
+  "expo": {
+    "android": {
+      "package": "com.kanele.LeNguyenDuyKhang22666191"
+    }
+  }
 }

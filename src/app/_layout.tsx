@@ -1,6 +1,17 @@
+import { SafeAreaProvider } from "react-native-safe-area-context";
 import "../global.css";
-import { Slot } from "expo-router";
+import { Stack } from "expo-router";
+import { SQLiteProvider } from "expo-sqlite";
+import { initDatabase } from "@/db";
 
 export default function Layout() {
-  return <Slot />;
+  return (
+    <SQLiteProvider databaseName="grocery.db" onInit={initDatabase}>
+      <SafeAreaProvider>
+        <Stack screenOptions={{ headerShown: false }}>
+          <Stack.Screen name="home/index" />
+        </Stack>
+      </SafeAreaProvider>
+    </SQLiteProvider>
+  );
 }
