@@ -1,0 +1,4 @@
+Chưa có link preview vì chưa chạy `eas build`. Sau khi build hoàn tất, hãy cập nhật dòng dưới đây bằng link thật từ Expo.
+
+Link sẽ đặt tại đây: <cập nhật sau khi build>
+
